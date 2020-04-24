@@ -1,0 +1,690 @@
+.home-container {
+  min-width: 1200px;
+  position: relative;
+  overflow: hidden;
+  background: url('/image/home/bg_color.png') repeat-y;
+  /* background: #08347d; */
+}
+
+/* home header */
+.h-header {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+}
+.h-header .bgImg, .bg-box {
+  width: 100%;
+  position: relative;
+  z-index: 0 ;
+}
+.h-header .bgImg img {
+  width: 100%;
+}
+.home-container .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(29, 40, 106, 0.7);
+}
+.h-header .h-container-header {
+  min-width: 1200px;
+  position: absolute;
+  padding-top: 20px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: rbga(0, 0, 0, 0.2);
+}
+
+.h-header .h-container-header nav {
+  /* left: 10%; */
+  margin: 0 auto;
+}
+
+.devide-area {
+  height: 200px;
+}
+
+.h-header .h-c-logo {
+  /* display: inline-block;
+  height: 60px;
+  vertical-align: top;
+  padding-right: 20px;
+  text-align: right; */
+  float: left;
+  height: 60px;
+  vertical-align: top;
+}
+.h-c-logo .img-box {
+  display: inline-block;
+  width: 100px;
+}
+.h-c-logo .img-box img {
+  width: 100%;
+}
+.h-header .h-c-logo div {
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  vertical-align: bottom;
+}
+
+/* home navigator */
+.h-header .nav-title {
+  display: inline-block;
+  height: 60px;
+}
+.h-header .nav-title > li {
+  width: 80px;
+  line-height: 60px;
+  display: inline-block;
+  text-align: center;
+}
+.h-header .nav-title li:hover .h-a-nav {
+  padding-bottom: 5px;
+  border-bottom: 3px solid white;
+}
+.h-header .nav-title .active {
+  padding-bottom: 5px;
+  border-bottom: 3px solid white;
+}
+.h-a-nav {
+  font-size: 16px;
+  color: white;
+}
+.h-a-nav:hover {
+  cursor: pointer;
+}
+
+.login-btn {
+  /* float: right; */
+  display: inline-block;
+  line-height: 60px;
+  padding-left: 10px;
+}
+.login-btn > .login, .login-btn > .register {
+  padding: 4px 10px;
+  border: 1px solid white;
+  font-weight: 600;
+}
+.login-btn > .login {
+  background: white;
+  color: #F22323;
+  margin-right: 10px;
+}
+
+.login-btn > .register {
+  background: transparent;
+  color: #F4F5F7;
+}
+/* home navigator -- end */
+
+/* home target */
+.h-header .home-target {
+  position: absolute;
+  top: 36%;
+  left: 20%;
+  font-size: 36px;
+  color: white;
+  font-weight: 400;
+}
+
+.h-header .target-explian {
+  position: absolute;
+  top: 48%;
+  left: 20%;
+  width: 260px;
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+  text-align: left;
+}
+
+.h-header .target-img {
+  position: absolute;
+  top: 58%;
+  left: 20%;
+  width: 240px;
+  height: 156px;
+  z-index: 1;
+  padding: 0;
+}
+.h-header .target-img img {
+  width: 100%;
+}
+.h-header .target-img .text-ex {
+  position: absolute;
+  z-index: 2;
+  top: 16%;
+  left: 7%;
+  color: white;
+  width: 100%;
+  text-align: left;
+}
+.h-header .target-img .go-now {
+  padding-top: 10%;
+  font-size: 14px;
+  position: relative;
+  width: 86%;
+}
+.h-header .target-img .go-now img {
+  width: 60px;
+  position: absolute;
+  right: 0;
+  height: 20px;
+}
+
+.h-header .target-img .down-box {
+  width: 100%;
+  height: 128px;
+  background: white;
+}
+.h-header .target-img .down-box h1 {
+  line-height: 48px;
+}
+.h-header .target-img .down-box .down-link {
+  display: flex;
+  margin-top: 12px;
+}
+.h-header .target-img .down-box .down-link div {
+  flex: 1;
+  border-radius: 100px;
+}
+.h-header .target-img .down-box .down-link div:hover {
+  /* background-color: #D7AE6F; */
+  cursor: pointer;
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+.h-header .target-img .down-box .down-link div  img {
+  width: 60%;
+}
+/* home target - end */
+
+
+/* home center */
+section {
+  width: 80%;
+  background: #F7F6F4;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+/* acount-type */
+section .acount-type h1 {
+  text-align: center;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+section .acount-explain {
+  display: flex;
+  margin: 100px 0;
+}
+section .acount-explain .left {
+  width: 50%;
+  text-align: center;
+}
+section .acount-explain .left img {
+  width: 244px;
+  padding-top: 20px;
+}
+section .acount-explain .right {
+  width: 320px;
+}
+section .acount-explain .right .explain img {
+  width: 320px;
+}
+section .acount-explain .right .some-account {
+  position: relative;
+  margin-top: 50px;
+}
+section .acount-explain .right .some-account-2 {
+  position: relative;
+  margin-top: 230px;
+}
+section .acount-explain .right .some-account img {
+  width: 60px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+section .some-account .title {
+  font-size: 26px;
+}
+section .some-account .devide-line {
+  width: 2em;
+  height: 3px;
+  font-size: 26px;
+  margin: 14px 0;
+  background: linear-gradient(to right, #E7CD9C, #BA9569);
+}
+/* acount-type -end */
+
+/* trade-type */
+section .trade-type {
+  margin-top: 130px;
+}
+section .trade-type h1 {
+  text-align: center;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 600;
+}
+section .trade-type .explain {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #9D7A52;
+  text-align: center;
+}
+section .trade-type .four-func, .opera-func {
+  display: flex;
+  width: 80%;
+  margin: 100px auto 0;
+}
+section .trade-type  .opera-func {
+  margin: 40px auto 0;
+}
+section .trade-type .four-func .func {
+  flex: 1;
+  position: relative;
+  text-align: center;
+}
+section .trade-type .mask-box {
+  position: absolute;
+  width: 80%;
+  top: 48%;
+  left: 10%;
+  height: 50%;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  border-radius: 0 0 500px 500px;
+}
+section .trade-type .blue-col {
+  background-color: #08347D;
+  color: white;
+}
+section .trade-type .mask-box h1 {
+  line-height: 15px;
+}
+section .trade-type .mask-box p {
+  font-size: 14px;
+  transform: scale(0.8);
+}
+section .trade-type .four-func div img {
+  width: 80%;
+}
+
+section .trade-type .opera-func div {
+  flex: 1;
+  text-align: center;
+}
+section .trade-type .opera-func div img {
+  width: 70%;
+}
+section .trade-type .opera-func div img:hover {
+  cursor: pointer;
+}
+
+section .trade-type .own-superiority {
+  position: relative;
+  margin-top: 100px;
+}
+section .trade-type .own-superiority img {
+  width: 100%;
+  position: relative;
+  left: -12.5%;
+}
+section .trade-type .own-superiority .more-btn {
+  width: 100px;
+  position: absolute;
+  right: 30%;
+  top: 30%;
+}
+
+section .trade-type .trade-hand {
+  display: flex;
+  margin-top: 100px;
+}
+section .trade-type .trade-hand .left {
+  width: 50%;
+}
+section .trade-type .trade-hand .left img {
+  width: 70%;
+}
+section .trade-type .trade-hand .right {
+  width: 360px;
+  padding: 0 20px;
+}
+section .trade-type .trade-hand .right .small-head img {
+  width: 40px;
+}
+section .trade-type .trade-hand .right .some-account {
+  position: relative;
+  margin-top: 30px;
+}
+/* section .trade-type .trade-hand .right .some-account img {
+  position: absolute;
+  width: 60px;
+}
+section .trade-type .trade-hand .right .some-account img:nth-of-type(1) {
+  width: 160px;
+}
+section .trade-type .trade-hand .right .some-account img:nth-of-type(2) {
+  width: 60px;
+  top: 120px;
+  right: 0;
+}
+section .trade-type .trade-hand .right .some-account img:nth-of-type(3) {
+  width: 320px;
+  top: 52px;
+} */
+section .trade-type .more-btn:hover {
+  cursor: pointer;
+}
+
+section .trade-type .trade-tool {
+  display: flex;
+  flex-direction: row-reverse;
+}
+section .trade-type .trade-tool .left {
+  text-align: center;
+}
+
+section .trade-type .more-device .left {
+  text-align: center;
+}
+
+section .trade-type .trade-serve {
+  display: flex;
+  flex-direction: row-reverse;
+}
+section .trade-type .trade-serve .left {
+  text-align: center;
+}
+
+/* trade-type - end */
+
+/* common trade-mode */
+.trade-mode .some-account .title {
+  font-weight: 750;
+  font-size: 18px;
+}
+.trade-mode .some-account .devide-line {
+  width: 2em;
+  height: 3px;
+  font-size: 18px;
+  margin: 14px 0;
+  background: linear-gradient(to right, #E7CD9C, #BA9569);
+}
+.trade-mode .some-account .explain {
+  font-weight: 400;
+  color: #686666;
+  text-align: left;
+  line-height: 24px;
+  margin: 20px 0;
+}
+.trade-mode .some-account .more-btn {
+  /* width: 60px; */
+  text-align: right;
+  /* position: absolute; */
+  /* top: 120px;
+  right: 0; */
+}
+.trade-mode .some-account .more-btn img {
+  width: 56px;
+}
+
+section .trade-type .about-us {
+  position: relative;
+  margin-top: 100px;
+}
+section .trade-type .about-us img {
+  width: 100%;
+  position: relative;
+  right: -12.5%;
+}
+section .trade-type .about-us .more-btn {
+  width: 100px;
+  position: absolute;
+  left: 30%;
+  top: 30%;
+}
+
+/* company introduction */
+section .company-intro {
+  margin: 80px auto 0;
+  width: 70%;
+  position: relative;
+}
+section .company-intro .bg {
+  width: 100%;
+  /* margin: 0 auto; */
+  position: absolute;
+  z-index: 0;
+}
+section .company-intro .bg img {
+  width: 100%;
+}
+section .company-intro .introd {
+  width: 96%;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+}
+section .company-intro .introd img {
+  width: 100%;
+}
+
+section .company-intro .company-func {
+  width: 96%;
+  margin: 30px auto 0;
+  background: white;
+  display: flex;
+}
+section .company-intro .company-func .left, .right {
+  /* display: inline-block; */
+  position: relative;
+  /* float: left; */
+}
+section .company-intro .company-func .left {
+  width: 65%;
+  border-right: 3px solid #F7F6F4;
+}
+section .company-intro .company-func .right {
+  width: 34%;
+}
+
+section .company-intro .company-func .three-func-bg {
+  position: relative;
+}
+section .company-intro .company-func .three-func-bg img {
+  width: 100%;
+  /* vertical-align: top; */
+}
+
+
+section .company-intro .three-func {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+}
+section .company-func .three-func img {
+  position: absolute;
+  width: 20%;
+}
+section .company-func .three-func img:nth-of-type(1) {
+  left: 6%;
+}
+section .company-func .three-func img:nth-of-type(2) {
+  left: 40%;
+}
+section .company-func .three-func img:nth-of-type(3) {
+  left: 76%;
+}
+
+section .company-func .right {
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+section .company-func .right ul {
+  margin-top: 10%;
+}
+section .company-func .right ul li {
+  font-size: 14px;
+  transform: scale(0.8)
+}
+section .company-func .right p {
+  position: absolute;
+  font-size: 14px;
+  transform: scale(0.8);
+  color: #9D7A52;
+  bottom: 10%;
+  left: 8%;
+}
+/* company introduction - end */
+/* company dream  */
+section .company-dream {
+  width: 86%;
+  margin: 52px auto;
+}
+section .company-dream h1 {
+  text-align: center;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+section .company-dream .func-exp {
+  box-sizing: border-box;
+  margin: 30px auto 0;
+  background: white;
+  padding: 50px 20px;
+}
+section .company-dream ul {
+  display: flex;
+}
+section .company-dream li {
+  flex: 1;
+  text-align: center;
+}
+section .company-dream li img {
+  width: 40%;
+}
+section .company-dream li .e-title {
+  font-size: 16px;
+  margin-top: 26px;
+  font-weight: 650;
+}
+section .company-dream li .e-explian {
+  font-size: 12px;
+  margin-top: 8px;
+  font-weight: 550;
+  /* text-transform: scale(0.2); */
+  transform: scale(0.9);
+}
+section .company-dream li .e-tit-eng {
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+section .company-dream li .e-line {
+  margin: 10px auto 0;
+  width: 3em;
+  height: 3px;
+  background: linear-gradient(to right, #E7CD9C, #BA9569);
+}
+
+section .company-dream .some-example {
+  width: 90%;
+  margin: 52px auto 0;
+  font-weight: 400;
+  text-indent: 2em;
+  line-height: 24px;
+  font-size: 16px;
+}
+section .company-dream .some-example p:nth-of-type(2) {
+  margin-top: 22px;
+}
+
+section .extra-info {
+  margin-top: 50px;
+  background-color: #08347D;
+  color: white;
+}
+section .extra-info ul li {
+  display: inline-block;
+  line-height: 58px;
+  font-size: 15px;
+  padding: 0 20px;
+}
+
+footer .concat-us {
+  position: relative;
+}
+footer .concat-us img {
+  width: 80%;
+  /* height: 200px; */
+}
+footer .concat-us .some-func {
+  width: 280px;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+footer .concat-us .some-func .text {
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 10px;
+  justify-content: space-between;
+  color: white;
+  font-weight: 500;
+}
+footer .concat-us .some-func .conat-box {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-around;
+  background: white;
+  margin-top: 6px;
+  line-height: 40px;
+}
+
+footer .concat-us .some-func .conat-box img {
+  width: 24px;
+}
+footer .concat-us .some-func .conat-box img:hover {
+  cursor: pointer;
+}
+/* company dream - end */
+
+footer .footer-func {
+  height: 100px;
+  display: flex;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+footer .footer-func .logo img {
+  width: 140px;
+}
+footer .footer-func ul {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  color: white;
+  font-size: 14px;
+  line-height: 85px;  
+}
+footer .footer-func ul>li:hover {
+  cursor: pointer;
+}
+/* home center - end */

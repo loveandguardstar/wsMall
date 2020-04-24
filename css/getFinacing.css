@@ -1,0 +1,257 @@
+.getFinacing-container {
+  min-width: 1200px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* getFinacing header */
+.h-header {
+  /* height: 500px; */
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+  /* background: url('/image/home/home_bg.png') no-repeat center center; */
+}
+.h-header .bgImg {
+  width: 100%;
+  position: relative;
+  z-index: 0 ;
+}
+.home-container .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(31, 44, 118, 0.7);
+}
+.h-header .h-container-header {
+  min-width: 860px;
+  position: absolute;
+  padding-top: 20px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: rbga(0, 0, 0, 0.2);
+}
+
+.h-header .h-container-header nav {
+  /* left: 10%; */
+  margin: 0 auto;
+}
+
+.devide-area {
+  height: 200px;
+}
+
+.h-header .h-c-logo {
+  float: left;
+  height: 60px;
+  vertical-align: top;
+}
+.h-c-logo .img-box {
+  display: inline-block;
+  width: 100px;
+}
+.h-c-logo .img-box img {
+  width: 100%;
+}
+.h-header .h-c-logo div {
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  vertical-align: bottom;
+}
+
+/* home navigator */
+.h-header .nav-title {
+  display: inline-block;
+  height: 60px;
+}
+.h-header .nav-title > li {
+  width: 80px;
+  line-height: 60px;
+  display: inline-block;
+  text-align: center;
+}
+.h-header .nav-title li:hover .h-a-nav {
+  padding-bottom: 5px;
+  border-bottom: 3px solid white;
+}
+.h-header .nav-title .active {
+  padding-bottom: 5px;
+  border-bottom: 3px solid white;
+}
+.h-a-nav {
+  font-size: 16px;
+  color: white;
+}
+.h-a-nav:hover {
+  cursor: pointer;
+}
+
+.login-btn {
+  float: right;
+  line-height: 60px;
+}
+.login-btn > .login, .login-btn > .register {
+  padding: 4px 10px;
+  border: 1px solid white;
+  font-weight: 600;
+}
+.login-btn > .login {
+  background: white;
+  color: #F22323;
+  margin-right: 10px;
+}
+
+.login-btn > .register {
+  background: transparent;
+  color: #F4F5F7;
+}
+/* getFinacing navigator -- end */
+
+/* getFinacing center */
+section {
+  min-width: 1200px;
+  margin: 0 auto;
+}
+section .get-finac {
+  box-sizing: border-box;
+  padding: 50px 0;
+  overflow: hidden;
+}
+section .get-finac .finac-box {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+/* section .get-finac .left, section .get-finac .right {
+  float: left;
+} */
+section .get-finac .left {
+  width: 638px;
+  /* padding-left: 150px; */
+}
+section .get-finac .tag img {
+  width: 68px;
+}
+section .get-finac .tag {
+  font-size: 26px;
+}
+section .get-finac p {
+  margin-top: 20px;
+}
+section .get-finac .column {
+  width: 44px;
+  height: 5px;
+  margin-top: 10px;
+  border-radius: 1px;
+  background: linear-gradient(to right, #E7CD9C, #BA9569);
+}
+section .get-finac .text-explain {
+  padding: 20px 0;
+  text-indent: 2em;
+  line-height: 36px;
+  font-weight: 600;
+}
+section .get-finac .more:hover {
+  cursor: pointer;
+}
+section .get-finac .left .more img {
+  width: 68px;
+}
+
+section .get-finac .right {
+  width: 560px;
+  padding-top: 80px;
+  text-align: center;
+}
+section .get-finac .right img {
+  width: 460px;
+}
+
+/* getFinacing ins-trade  */
+section .ins-trade {
+  text-align: center;
+  line-height: 50px;
+  padding: 60px 0;
+}
+
+section .ins-trade h1 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 590;
+}
+section .ins-trade h3 {
+  font-size: 20px;
+  line-height: 50px;
+}
+section .ins-trade .column {
+  width: 66px;
+  height: 5px;
+  margin: 10px auto;
+  background: linear-gradient(to right, #E7CD9C, #BA9569);
+}
+section .ins-trade .some-tip {
+  height: 188px;
+  margin-top: 70px;
+  background: #C5CDE0;
+}
+section .ins-trade .some-tip .tip-box {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+section .ins-trade .some-tip .right-img {
+  width: 500px;
+}
+section .ins-trade .some-tip .left-text {
+  width: 480px;
+  box-sizing: border-box;
+  line-height: 30px;
+  text-align: left;
+  text-indent: 2em;
+  margin-top: 52px;
+  font-weight: 600;
+}
+section .ins-trade .some-tip .right-img {
+  position: relative;
+  top: -40px;
+  left: 40px;
+}
+section .ins-trade .some-tip .right-img img {
+  width: 380px;
+}
+
+section .ins-trade .some-example {
+  height: 300px;
+  margin-top: 140px;
+}
+section .ins-trade .some-example .example-box {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+section .ins-trade .some-example .left-img img {
+  width: 400px;
+  overflow: hidden;
+  position: relative;
+}
+section .ins-trade .some-example .right-text {
+  width: 630px;
+  box-sizing: border-box;
+  padding-left: 110px;
+  line-height: 30px;
+  text-align: left;
+  text-indent: 2em;
+  padding-top: 110px;
+  font-weight: 600;
+}
+/* getFinacing ins-trade - end */
+/* getFinacing center - end */

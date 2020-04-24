@@ -1,0 +1,321 @@
+.help-container {
+  min-width: 1200px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* home header */
+.h-header {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 1;
+}
+.h-header .bgImg {
+  width: 100%;
+  position: relative;
+  z-index: 0 ;
+}
+.home-container .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(31, 44, 118, 0.7);
+}
+.h-header .h-container-header {
+  min-width: 860px;
+  position: absolute;
+  padding-top: 20px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: rbga(0, 0, 0, 0.2);
+}
+
+.h-header .h-container-header nav {
+  /* left: 10%; */
+  margin: 0 auto;
+}
+
+.devide-area {
+  height: 200px;
+}
+
+.h-header .h-c-logo {
+  float: left;
+  height: 60px;
+  vertical-align: top;
+}
+.h-c-logo .img-box {
+  display: inline-block;
+  width: 100px;
+}
+.h-c-logo .img-box img {
+  width: 100%;
+}
+.h-header .h-c-logo div {
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+  vertical-align: bottom;
+}
+
+/* home navigator */
+.h-header .nav-title {
+  display: inline-block;
+  height: 60px;
+}
+.h-header .nav-title > li {
+  width: 80px;
+  line-height: 60px;
+  display: inline-block;
+  text-align: center;
+}
+.h-header .nav-title li:hover .h-a-nav {
+  padding-bottom: 5px;
+  border-bottom: 3px solid white;
+}
+.h-header .nav-title .active {
+  padding-bottom: 5px;
+  border-bottom: 3px solid white;
+}
+.h-a-nav {
+  font-size: 16px;
+  color: white;
+}
+.h-a-nav:hover {
+  cursor: pointer;
+}
+
+.login-btn {
+  float: right;
+  line-height: 60px;
+}
+.login-btn > .login, .login-btn > .register {
+  padding: 4px 10px;
+  border: 1px solid white;
+  font-weight: 600;
+}
+.login-btn > .login {
+  background: white;
+  color: #F22323;
+  margin-right: 10px;
+}
+
+.login-btn > .register {
+  background: transparent;
+  color: #F4F5F7;
+}
+/* home navigator -- end */
+
+/* help instroduction */
+.h-header .instroducton {
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  text-align: center;
+  font-size: 40px;
+  color: #8BD4ED;
+  z-index: 1;
+}
+.h-header .instroducton > div:nth-of-type(1) > img {
+  /* margin-top: 8px; */
+  height: 35px;
+}
+.h-header .instroducton > .instroduction-text {
+  margin-top: -4px;
+}
+.h-header .instroducton > .instroduction-text > img {
+  height: 15px;
+}
+/* help instroduction - end */
+
+.ball-tree {
+  position: absolute;
+  z-index: 1;
+}
+.ball-tree img {
+  width: 100%;
+}
+.ball-tree-1 {
+  width: 10%;
+  top: 62%;
+  left: 19%;
+}
+.ball-tree-2 {
+  width: 16%;
+  top: 52%;
+  left: 29%;
+}
+.ball-tree-3 {
+  width: 11%;
+  top: 47%;
+  left: 55%; 
+}
+.ball-tree-4 {
+  width: 11%;
+  top: 53%;
+  left: 66%; 
+}
+.ball-tree-5 {
+  width: 14%;
+  top: 64%;
+  left: 73%;
+}
+/* help ball */
+
+/* help center */
+section {
+  width: 1200px;
+  height: 604px;
+  margin: 0 auto;
+}
+section > div {
+  box-sizing: border-box;
+}
+section > .center-top {
+  height: 120px;
+  padding-top: 76px;
+  text-align: center;
+}
+section > .center-top > img {
+  height: 28px;
+  vertical-align: center; 
+}
+section > .colume-line {
+  width: 60px;
+  height: 5px;  
+  margin: 0 auto;
+  background: red;
+}
+section > .center-middle {
+  height: 80px;
+  padding-top: 20px;
+  text-align: center;
+}
+section > .center-middle > img {
+  height: 19px;
+  vertical-align: center; 
+}
+section > .center-bottom {
+  width: 744px;
+  margin: 52px auto 0;
+  overflow: hidden;
+}
+section > .center-bottom > .left, section > .center-bottom > .right {
+  float: left;
+  height: 400px;
+}
+section > .center-bottom > .left {
+  box-sizing: border-box;
+  padding-top: 46px;
+}
+section > .center-bottom > .left li {
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 550;
+}
+section > .center-bottom > .left .glyphicon {
+  vertical-align: middle;
+  padding-right: 6px;
+  top: -1px;
+}
+section > .center-bottom > .right {
+  padding-left: 52px;
+}
+section > .center-bottom > .right > img {
+  height: 294px;
+  vertical-align: center; 
+}
+/* help center - end */
+/* help footer */
+footer {
+  background: #3E4349;
+  color: white;
+}
+footer > .area {
+  width: 80%;
+  min-width: 970px;
+  margin: 0 auto;
+}
+
+/* contact us */
+footer .top {
+  box-sizing: border-box;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+footer .top .contact, footer .top .info-nav {
+  float: left;
+  font-size: 20px;
+}
+footer .top .contact .c-us {
+  margin-bottom: 18px;
+}
+footer .top .contact botton {
+  padding: 4px 30px;
+  border: 1px solid orangered;
+  line-height: 28px;
+  color: orangered;
+  border-radius: 1px;
+}
+footer .top .contact .c-time {
+  margin-top: 24px;
+  font-size: 14px;
+}
+
+footer .info-nav {
+  width: 720px;
+}
+footer .info-nav .info-nav {
+  color: orangered;
+}
+footer .info-nav li {
+  float: left;
+  width: 110px;
+  overflow: hidden;
+}
+footer .info-nav li:hover {
+  cursor: pointer;
+  color: orangered;
+}
+footer .info-nav ul {
+  margin-bottom: 18px;
+}
+footer .info-nav ul::after {
+  content:'';
+  display:table;
+  clear:both;
+  overflow:hidden;
+}
+footer .info-nav ul .active {
+  color: orangered;
+}
+footer .info-nav .info-express {
+  display: block;
+  font-size: 14px;
+  text-indent: 2em;
+  line-height: 24px;
+}
+footer .info-nav .info-express .mainCont {
+  display: none;
+}
+footer .info-nav .info-express .selected {
+  display: block;
+}
+footer .bottom {
+  padding-bottom: 50px;
+}
+footer .bottom p {
+  box-sizing: border-box;
+  border-top: 1px #cccccc solid;
+  padding-top: 50px;
+  font-size: 14px;
+  color: white;
+}
+/* help footer - end */
